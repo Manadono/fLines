@@ -1,0 +1,1 @@
+ffmpeg -f concat -safe 0 -i "*your file path here*Files.txt" -map 0 -c copy "H:\OBSRecordings\Transcoded\*your file path here*.mkv"
