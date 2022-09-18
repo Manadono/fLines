@@ -1,0 +1,11 @@
+The goal of this set of CLIs is to provide a quick and easy way to use FFMPEG remuxing without having to spend hours reading the manual.
+
+All video going into the mux must be at the same frame rate, and in the same format.
+This is designed to be used post Handbrake to save time re-reencoding video (which sucks by the way)
+
+All audio going in has to be something but I can't remember what, iirc it won't allow MP3, but prove me wrong. WAV and AAC are recommended.
+
+I have an audio stream replacer CLI (I actually have 2) but I can't remember which one does what so I am not including them as of 18/9.
+
+
+enjoy concatenating your dropped streams :)
